@@ -1,0 +1,23 @@
+h1 {
+  font-size: 26px;
+}
+
+.background {
+  background-image: url("/th.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px;
+}
+
+.left-rectangle {
+  height: 40px;
+  width: 90px;
+  background-color: whitesmoke;
+}
+
+.right-rectangle {
+  height: 40px;
+  width: 90px;
+  background-color: whitesmoke;
+}
