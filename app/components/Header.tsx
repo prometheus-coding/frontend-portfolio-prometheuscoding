@@ -1,6 +1,6 @@
 import LocationText from "./LocationText";
-import ButtonThemeSwitch from "./ButtonThemeSwitch";
-import HamburgerMenuHeader from "./HamburgerMenuHeader";
+import ButtonThemeSwitch from "./ToggleDarkMode";
+import HamburgerMenuHeader from "./HamburgerMenu";
 const Header = () => {
   return (
     <div className="flex justify-between">
