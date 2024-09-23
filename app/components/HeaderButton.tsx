@@ -1,5 +1,5 @@
-const LocationText = () => {
+const HeaderButton = () => {
   return <div className=""></div>;
 };
 
-export default LocationText;
+export default HeaderButton;
