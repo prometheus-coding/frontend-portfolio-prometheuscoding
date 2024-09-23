@@ -26,28 +26,28 @@ export default function Home() {
         <div
           className="background"
           style={{
-            transform: `translate(${mousePosition.x * 20}px, ${mousePosition.y * 20}px)`,
+            transform: `translate(${mousePosition.x * 10}px, ${mousePosition.y * 10}px)`,
             transition: "transform 0.1s ease-out",
           }}
         >
           <div
             className="absolute left-0 top-40 text-black left-rectangle"
             style={{
-              transform: `translate(${mousePosition.x * 30}px, ${mousePosition.y * 30}px)`,
+              transform: `translate(${mousePosition.x * 10}px, ${mousePosition.y * 10}px)`,
               transition: "transform 0.1s ease-out",
             }}
           ></div>
           <div
             className="absolute right-0 top-60 text-black right-rectangle"
             style={{
-              transform: `translate(${mousePosition.x * 30}px, ${mousePosition.y * 30}px)`,
+              transform: `translate(${mousePosition.x * 10}px, ${mousePosition.y * 10}px)`,
               transition: "transform 0.1s ease-out",
             }}
           ></div>
           <h1
             className="flex items-center justify-center h-screen text-black"
             style={{
-              transform: `translate(${mousePosition.x * 40}px, ${mousePosition.y * 40}px)`,
+              transform: `translate(${mousePosition.x * 10}px, ${mousePosition.y * 10}px)`,
               transition: "transform 0.1s ease-out",
             }}
           >
