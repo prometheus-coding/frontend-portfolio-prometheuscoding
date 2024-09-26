@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+  font-family: "Valentino";
+  src: url("../app/fonts/NTVALENTINO.otf");
+}
+@font-face {
+  font-family: "ValentinoItalic";
+  src: url("../app/fonts/VALENTINOItalic.otf");
+}
+
 :root {
 
   --max-widht: 1270px;
