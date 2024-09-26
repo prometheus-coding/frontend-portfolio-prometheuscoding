@@ -8,9 +8,13 @@ export default function Home() {
   return (
     <React.Fragment>
       <Header />
-      <Hero2 />
+      <Section bgColor="bg-white dark:bg-primary-600">
+        <Hero2 />
+      </Section>
       <Section bgColor="bg-red-400">
-        <h2>Section 1</h2>
+        <div className="h-screen">
+          <h1>We create codes</h1>
+        </div>
       </Section>
     </React.Fragment>
   );
