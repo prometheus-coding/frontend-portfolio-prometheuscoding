@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import "./homepage.css";
 import Hero2 from "./components/Hero2";
 import Section from "./components/Section";
+import ProjectsCard from "./components/ProjectsCard";
 
 export default function Home() {
   return (
@@ -22,12 +23,14 @@ export default function Home() {
         </div>
       </Section>
       <Section bgColor="">
-          <div className="h-[600px] flex w-[1270px] px-4">
-          <div className="flex justify-center items-center">
+          <div className="h-[600px] w-[1270px] p-4">
+          <div className="flex">
             <h1 className="text-7xl font-valentino text-gray-900">Title??</h1>
           </div>
-          <div>
-
+          <div className="flex">
+            <ProjectsCard></ProjectsCard>
+            <ProjectsCard></ProjectsCard>
+            <ProjectsCard></ProjectsCard>
           </div>
         </div>
       </Section>
