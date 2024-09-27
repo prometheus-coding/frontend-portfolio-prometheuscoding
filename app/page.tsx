@@ -12,8 +12,8 @@ export default function Home() {
       <Section bgColor="bg-white dark:bg-primary-600">
         <Hero2 />
       </Section>
-      <Section bgColor="bg-primary-500">
-          <div className="h-[800px] flex w-[1270px] px-4">
+      <Section bgColor="bg-primary-500" sectionHeight="h-[800px]">
+          <div className="flex w-[1270px] px-4">
           <div className="flex items-center w-1/3">
             <h1 className="text-6xl font-valentino">We create codes</h1>
           </div>
@@ -22,8 +22,8 @@ export default function Home() {
           </div>
         </div>
       </Section>
-      <Section bgColor="">
-          <div className="h-[600px] w-[1270px] p-4">
+      <Section bgColor="" sectionHeight="h-[600px]">
+          <div className="h-full w-[1270px] p-4">
           <div className="flex">
             <h1 className="text-7xl font-valentino text-gray-900">Title??</h1>
           </div>

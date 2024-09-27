@@ -9,7 +9,7 @@ interface Props {
 
 const Section = ({ children, bgColor, sectionHeight }: Props) => {
   return (
-    <div className={`w-full flex justify-center ${bgColor}`}>{children}</div>
+    <div className={`w-full flex justify-center ${bgColor} ${sectionHeight}`}>{children}</div>
   )
 }
 
