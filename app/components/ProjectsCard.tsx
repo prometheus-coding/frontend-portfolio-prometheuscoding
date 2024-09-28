@@ -1,15 +1,11 @@
-
-
 interface Props {
-
-  imageUrl?: string
-  projectName?: string
-
+  imageUrl?: string;
+  projectName?: string;
 }
 
-const ProjectsCard = ({imageUrl, projectName}:Props) => {
+const ProjectsCard = ({ imageUrl, projectName }: Props) => {
   return (
-    <div className="project-card w-1/3 h-96 shadow-md">
+    <div className="project-card w-96 h-80 shadow-md rounded">
       <h3>Project Title</h3>
     </div>
   );
