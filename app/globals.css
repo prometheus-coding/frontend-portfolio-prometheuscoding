@@ -31,6 +31,9 @@
   }
 }
 
+/* TODO */
+/* WE NEED TO DEFINE A GLOBAL WAY TO DECLARE MAX WIDTH IN THE WHOLE PAGE */
+
 body {
   color: var(--foreground);
   /* background: var(--background); */
