@@ -19,7 +19,7 @@ const ProjectSection = () => {
           <hr className="w-full ml-20 my-4 border-gray-300" />
         </div>
       </div>
-      <div className="mt-8 flex gap-6 max-w-sm overflow-x-scroll min-h-[400px] md:max-w-md lg:max-w-lg xl:max-w-[1270px]">
+      <div className="mt-8 flex gap-6 max-w-sm overflow-x-scroll min-h-[400px] md:max-w-[40rem] lg:max-w-[60rem] xl:max-w-[1270px]">
         {prometheusProjectData.map((item, index) => {
           return (
             <div key={`item ${index}`}>
