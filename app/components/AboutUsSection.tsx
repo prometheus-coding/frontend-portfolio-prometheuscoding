@@ -1,8 +1,13 @@
+import Section from "./Section";
+
 const AboutUsSection = () => {
   return (
-    <div>
-      <h3>SWAG</h3>
-    </div>
+    <Section sectionHeight="h-screen">
+      <div>
+        <h1 className="text-black">ABOUT US</h1>
+      </div>
+    </Section>
   );
 };
+
 export default AboutUsSection;

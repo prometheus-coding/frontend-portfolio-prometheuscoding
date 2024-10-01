@@ -1,8 +1,12 @@
+import Section from "./Section";
+
 const OurWorkSection = () => {
   return (
-    <div>
-      <h3>SWAG</h3>
-    </div>
+    <Section sectionHeight="h-screen">
+      <div>
+        <h3 className="text-black">OUR WORK</h3>
+      </div>
+    </Section>
   );
 };
 

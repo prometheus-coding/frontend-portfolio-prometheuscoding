@@ -1,4 +1,4 @@
-const HamburgerMenu = () => {
+const LocationText = () => {
   return (
     <div className="w-1/6 flex justify-end pr-8">
       <div className="h-3 flex flex-col gap-2">
@@ -9,4 +9,4 @@ const HamburgerMenu = () => {
   );
 };
 
-export default HamburgerMenu;
+export default LocationText;
