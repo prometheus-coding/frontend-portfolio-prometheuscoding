@@ -47,7 +47,12 @@ body {
   }
 }
 
-/* 
 * {
 outline: 1px dashed black;    
-} */
+color: black;
+} 
+
+.centered {
+margin: 0 auto;
+width: 1000px;
+}
