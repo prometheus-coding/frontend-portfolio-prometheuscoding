@@ -1,8 +1,8 @@
 "use client";
 import React, { useRef, useState } from "react";
-import Section from "./Section";
+import Section from "../common/Section";
 import ProjectsCard from "./ProjectsCard";
-import { prometheusProjectData } from "../data/mockData";
+import { prometheusProjectData } from "../../data/mockData";
 import { motion, useScroll, useTransform } from "framer-motion";
 
 const ProjectSection = () => {

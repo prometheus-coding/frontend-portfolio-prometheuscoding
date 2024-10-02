@@ -1,16 +1,16 @@
 import React from "react";
-import Header from "./components/Header";
-import SolutionHeroSection from "./components/SolutionHeroSection";
-import CodeCreationSection from "./components/CodeCreationSection";
-import ProjectSection from "./components/ProjectSection";
-import DemoQuotesSection from "./components/DemoQuotesSection";
-import HowWeDoItSection from "./components/HowWeDoItSection";
-import AboutUsSection from "./components/AboutUsSection";
-import OurWorkSection from "./components/OurWorkSection";
-import WhyChooseUsSection from "./components/WhyChooseUsSection";
-import TechnologySection from "./components/TechnologySection";
-import ContactUsSection from "./components/ContactUsSection";
-import Footer from "./components/Footer";
+import Header from "./components/Header/Header";
+import SolutionHeroSection from "./components/SolutionHeroSection/SolutionHeroSection";
+import CodeCreationSection from "./components/CodeCreationSection/CodeCreationSection";
+import ProjectSection from "./components/ProjectSection/ProjectSection";
+import DemoQuotesSection from "./components/DemoQuotesSection/DemoQuotesSection";
+import HowWeDoItSection from "./components/HowWeDoItSection/HowWeDoItSection";
+import AboutUsSection from "./components/AboutUsSection/AboutUsSection";
+import OurWorkSection from "./components/OurWorkSection/OurWorkSection";
+import WhyChooseUsSection from "./components/WhyChooseUsSection/WhyChooseUsSection";
+import TechnologySection from "./components/TechnologySection/TechnologySection";
+import ContactUsSection from "./components/ContactUsSection/ContactUsSection";
+import Footer from "./components/Footer/Footer";
 import "./homepage.css";
 
 export default function Home() {
