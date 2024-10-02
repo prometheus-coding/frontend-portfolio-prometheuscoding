@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @layer base {
     .keep-color-scheme img {
         filter: none;
@@ -6,57 +10,9 @@
     .keep-color-scheme {
         /* --- colors --- */
         /* base */
-        --black: #000;
-        --dark: #0e1722;
-        --blueWhite: #effaff;
-        --blueLight: #83c0ff;
-        --powerBlue: #0d6c90;
-        --dignityBlue: #085172;
-        --white: #ffffff;
-
-
-        /* focus border */
-        --focus-50: #cedeed;
-
-        /* grey scale */
-        --grey-50: #fafafa;
-        --grey-100: #f3f3f3;
-        --grey-200: #e9ebed;
-        --grey-300: #d4d4d4;
-        --grey-400: #b6b6b6;
-        --grey-500: #767676;
-        --grey-600: #444444;
-        --grey-700: #222222;
-        /* primary */
-        --primary-50: #EFFAFF;
-        --primary-100: #DCF0F7;
-        --primary-200: #B7EBFF;
-        --primary-400: #1799CC;
-        --primary-600: #0D6C90;
-        --primary-700: #085172;
-        --primary-800: #063648;
-        --primary-900: #01232F;
-
-        /* Highlights */
-
-        --highlight-50: #ffe066;
-        --highlight-500: #ffcc02;
-        --highlight-700: #d9ae02;
-
-
-        /* feedback */
-        --invalid-800: #de1135;
-        --error-900: #c50000;
-        --error-500: #ff3d1f;
-        --warning-900: #db610a;
-        --warning-600: #f19618;
-        --success-800: #12854a;
-        --success-500: #2db86c;
-        
+        --notte-200: #424242;
     }
-
     @media (prefers-color-scheme: dark) {
-
         :root {
             --background: #0a0a0a;
             --foreground: #ededed;
@@ -65,5 +21,27 @@
             --notte-200: #090c0f;
         }
     }
+    @media (prefers-color-scheme: light) {
+        :root {
+            --background: #0a0a0a;
+            --foreground: #ededed;
+            --primary-500: #a34a4a;
+            --primary-600: #460b0b;
+            --notte-200: #18497a;
+        }
+    }
 }
 
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+    }
+    .centered {
+        width: 1000px;
+        color: grey;
+    }
+}
+
+* {
+    outline: 1px dashed black;
+}

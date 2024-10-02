@@ -18,6 +18,7 @@ export default function Home() {
     <React.Fragment>
       {/* Header da sistemare il bottone darkmode */}
       <Header />
+      <ContactUsSection />
       {/* inizio della pagina */}
       <SolutionHeroSection />
       {/* Ci sara animazione dei codici che si scrivono da soli */}
@@ -37,7 +38,7 @@ export default function Home() {
       {/* Servono gli svg di ruben */}
       <TechnologySection />
       {/* form contatto a noi */}
-      <ContactUsSection />
+
       {/* zona footer */}
       <Footer />
     </React.Fragment>

@@ -12,14 +12,14 @@
   src: url("../app/fonts/VALENTINOItalic.otf");
 }
 
-:root {
+/* :root {
 
   --max-widht: 1270px;
 
   --background: #ffffff;
   --foreground: #171717;
   --primary-500: #424242;
-}
+} */
 
 
 /* TODO */
@@ -32,18 +32,6 @@ body {
   /* overflow-x: hidden; */
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-  .centered {
-      width: 1000px;
-      color: grey;
-  }
-}
 
-* {
-    outline: 1px dashed black;    
-} 
 
 

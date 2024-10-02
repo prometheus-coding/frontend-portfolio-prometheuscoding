@@ -4,7 +4,7 @@ const ContactUsSection = () => {
   return (
     <Section sectionHeight="h-screen" bgColor="bg-primary-200">
       <div className="centered">
-        <div className="centered pb-3"> Let's have our first meeting </div>
+        <div className="centered pb-3"> Let&apos;s have our first meeting </div>
         <div className="flex">
           <div className="w-7/12">
             <div className="flex h-[40px] gap-4 mb-4">
