@@ -18,24 +18,8 @@
         --notte-200: #090c0f;
     }
 
-    /* @media (prefers-color-scheme: dark) {
-        :root {
-            --background: #0a0a0a;
-            --foreground: #ededed;
-            --primary-500: #424242;
-            --primary-600: #222222;
-            --notte-200: #090c0f;
-        }
-    }
-    @media (prefers-color-scheme: light) {
-        :root {
-            --background: #0a0a0a;
-            --foreground: #ededed;
-            --primary-500: #a34a4a;
-            --primary-600: #460b0b;
-            --notte-200: #18497a;
-        }
-    } */
+
+    /* for an eventual darkmode */
     .dark {
         --background: #0a0a0a;
         --foreground: #ededed;
@@ -55,6 +39,6 @@
     }
 }
 
-* {
+/* * {
     outline: 1px dashed black;
-}
+} */

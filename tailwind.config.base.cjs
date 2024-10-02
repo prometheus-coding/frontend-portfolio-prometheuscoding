@@ -23,5 +23,5 @@ module.exports = {
         },
     },
     plugins: [],
-    darkMode: "selector",
+    // darkMode: "selector",
 };
