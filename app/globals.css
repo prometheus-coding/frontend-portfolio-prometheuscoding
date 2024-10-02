@@ -45,6 +45,9 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  .centered {
+      width: 1000px;
+  }
 }
 
 * {
@@ -52,7 +55,4 @@ outline: 1px dashed black;
 color: black;
 } 
 
-.centered {
-margin: 0 auto;
-width: 1000px;
-}
+

@@ -3,7 +3,7 @@ import Section from "../common/Section";
 const HowWeDoItSection = () => {
   return (
     <Section sectionHeight="h-screen">
-      <div className="grid w-[1000px] grid-rows-12 grid-cols-12 gap-4 h-[768px]">
+      <div className="grid centered grid-rows-12 grid-cols-12 gap-4 h-[768px]">
         <div className="row-span-4 col-span-7 bg-blue-300 p-4">1. Meeting</div>
         <div className="row-span-4 col-span-5 bg-green-300 p-4">2. Design</div>
         <div className="row-span-4 col-span-5 bg-yellow-300 p-4">
