@@ -56,7 +56,13 @@ const ContactUsSection = () => {
               </button>
             </div>
           </div>
-          <div className="w-5/12">sinistra</div>
+          <div className="w-5/12">
+            <div className="w-[100px]">
+              <h2>Quotes</h2>
+              <div>"He who has overcome his fears will truly be free"</div>
+              <div>- Aritotle</div>
+            </div>
+          </div>
         </div>
       </div>
     </Section>
