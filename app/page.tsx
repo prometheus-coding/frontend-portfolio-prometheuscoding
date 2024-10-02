@@ -27,7 +27,7 @@ export default function Home() {
       {/* Ci sara un carosello e le demo animative */}
       <DemoQuotesSection />
       {/* Processo di costruzione d iun sito web */}
-      <HowWeDoItSection />
+      {/* <HowWeDoItSection /> */}
       {/* Chi siamo sedzione artistica sara solo bello da leggere */}
       <AboutUsSection />
       {/* Stessa cosa serve creativita  */}
@@ -37,7 +37,7 @@ export default function Home() {
       {/* Servono gli svg di ruben */}
       <TechnologySection />
       {/* form contatto a noi */}
-      <ContactUsSection />
+      {/* <ContactUsSection /> */}
       {/* zona footer */}
       <Footer />
     </React.Fragment>
