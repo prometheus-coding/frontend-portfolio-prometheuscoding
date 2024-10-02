@@ -17,6 +17,7 @@ module.exports = {
                 primary: {
                     500: "var(--primary-500)",
                     600: "var(--primary-600)",
+                    200: "var(--primary-200)"
                 },
             },
         },

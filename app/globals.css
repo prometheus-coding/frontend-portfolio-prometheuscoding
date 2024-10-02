@@ -21,15 +21,6 @@
   --primary-500: #424242;
 }
 
-@media (prefers-color-scheme: dark) {
-
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-    --primary-500: #424242;
-    --primary-600: #222222;
-  }
-}
 
 /* TODO */
 /* WE NEED TO DEFINE A GLOBAL WAY TO DECLARE MAX WIDTH IN THE WHOLE PAGE */
@@ -47,12 +38,12 @@ body {
   }
   .centered {
       width: 1000px;
+      color: grey;
   }
 }
 
 * {
-outline: 1px dashed black;    
-color: black;
+    outline: 1px dashed black;    
 } 
 
 
