@@ -10,16 +10,16 @@ const HowWeDoItSection = () => {
         <div className="s:row-span-1 s:col-span-6 h-[300px] md:row-span-4 md:col-span-5 bg-green-300 p-4">
           2. Design
         </div>
-        <div className="s:row-span-1 s:col-span-6 h-[300px] md:row-span-4 md:col-span-5 bg-yellow-300 p-4">
+        <div className="s:row-span-1 s:col-span-6 h-[300px] md:row-span-4 md:col-span-4 bg-yellow-300 p-4">
           3. Development
         </div>
         <div className="s:row-span-1 s:col-span-6 h-[300px] md:row-span-4 md:col-span-4 bg-orange-300 p-4">
           4. Maintenance
         </div>
-        <div className="s:row-span-1 s:col-span-6 h-[300px] md:h-auto md:row-span-8 md:col-span-3 bg-red-300 p-4">
+        <div className="s:row-span-1 s:col-span-6 h-[300px] md:h-auto md:row-span-8 md:col-span-4 bg-red-300 p-4">
           5. Launch
         </div>
-        <div className="s:row-span-1 s:col-span-6 h-[300px] md:row-span-4 md:col-span-9 bg-purple-300 p-4">
+        <div className="s:row-span-1 s:col-span-6 h-[300px] md:row-span-4 md:col-span-8 bg-purple-300 p-4">
           6. Not convinced yet?
         </div>
       </div>
