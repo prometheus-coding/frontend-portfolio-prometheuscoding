@@ -20,14 +20,14 @@ export default function Home() {
       <Header />
       {/* inizio della pagina */}
       <SolutionHeroSection />
+      {/* Progetti */}
+      <ProjectSection /> 
       {/* Ci sara animazione dei codici che si scrivono da soli */}
       <CodeCreationSection />
-      {/* Progetti */}
-      {/* <ProjectSection /> */}
       {/* Ci sara un carosello e le demo animative */}
       <DemoQuotesSection />
       {/* Processo di costruzione d iun sito web */}
-      {/* <HowWeDoItSection /> */}
+      <HowWeDoItSection /> 
       {/* Chi siamo sedzione artistica sara solo bello da leggere */}
       <AboutUsSection />
       {/* Stessa cosa serve creativita  */}
