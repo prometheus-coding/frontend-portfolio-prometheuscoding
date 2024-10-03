@@ -13,10 +13,7 @@ const ProjectSection = () => {
     offset: ["start end", "end start"],
   });
 
-  // Transform for the first scrollable component (scroll to the right)
   const xRight = useTransform(scrollYProgress, [0, 1], [0, -2000]);
-
-  // Transform for the second scrollable component (scroll to the left)
   const xLeft = useTransform(scrollYProgress, [0, 1], [-1000, 2000]);
 
   return (
@@ -34,20 +31,18 @@ const ProjectSection = () => {
         </div>
       </div>
 
-      {/* First scrollable component (to the right) */}
-      <div className="relative mt-8 overflow-hidden min-h-[400px] max-w-sm  md:max-w-[40rem] lg:max-w-full xl:max-w-full">
+      {/* First scrollable component (scroll to the right) */}
+      <div className="relative mt-8 overflow-hidden w-full"> 
         <motion.div
-          className="flex gap-6"
+          className="flex gap-6 w-[100vw]" // Full screen width
           drag="x"
           style={{ x: xRight }}
         >
-          {prometheusProjectData.map((item, index) => {
-            return (
-              <div key={`item ${index}`}>
-                <ProjectsCard imageUrl={item.imageUrl} />
-              </div>
-            );
-          })}
+          {prometheusProjectData.map((item, index) => (
+            <div key={`item ${index}`} className="w-full">
+              <ProjectsCard imageUrl={item.imageUrl} />
+            </div>
+          ))}
         </motion.div>
       </div>
 
@@ -59,20 +54,18 @@ const ProjectSection = () => {
         </div>
       </div>
 
-      {/* Second scrollable component (to the left) */}
-      <div className="relative mt-8 overflow-hidden min-h-[400px] max-w-sm  md:max-w-[40rem] lg:max-w-full xl:max-w-full">
+      {/* Second scrollable component (scroll to the left) */}
+      <div className="relative mt-8 overflow-hidden w-full">
         <motion.div
-          className="flex gap-6"
+          className="flex gap-6 w-[100vw]" // Full screen width
           drag="x"
           style={{ x: xLeft }}
         >
-          {prometheusProjectData.map((item, index) => {
-            return (
-              <div key={`item ${index}`}>
-                <ProjectsCard imageUrl={item.imageUrl} />
-              </div>
-            );
-          })}
+          {prometheusProjectData.map((item, index) => (
+            <div key={`item ${index}`} className="w-full">
+              <ProjectsCard imageUrl={item.imageUrl} />
+            </div>
+          ))}
         </motion.div>
       </div>
 
