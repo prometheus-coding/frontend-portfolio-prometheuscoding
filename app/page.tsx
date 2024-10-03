@@ -23,7 +23,7 @@ export default function Home() {
       {/* Ci sara animazione dei codici che si scrivono da soli */}
       <CodeCreationSection />
       {/* Progetti */}
-      <ProjectSection />
+      {/* <ProjectSection /> */}
       {/* Ci sara un carosello e le demo animative */}
       <DemoQuotesSection />
       {/* Processo di costruzione d iun sito web */}
@@ -37,7 +37,7 @@ export default function Home() {
       {/* Servono gli svg di ruben */}
       <TechnologySection />
       {/* form contatto a noi */}
-      {/* <ContactUsSection /> */}
+      {/* <ContactUsSection /> 
       {/* zona footer */}
       <Footer />
     </React.Fragment>

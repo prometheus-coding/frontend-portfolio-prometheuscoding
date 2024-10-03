@@ -1,14 +1,27 @@
+import fluid, { extract } from "fluid-tailwind";
+
 module.exports = {
-    content: [
-        "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-        "./components/**/*.{js,ts,jsx,tsx,mdx}",
-        "./app/**/*.{js,ts,jsx,tsx,mdx}",
-    ],
+    content: {
+        files: [
+            "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+            "./components/**/*.{js,ts,jsx,tsx,mdx}",
+            "./app/**/*.{js,ts,jsx,tsx,mdx}",
+        ],
+        extract,
+    },
     theme: {
+        screens: {
+            xs: "20rem", // Extra small (320px)
+            s: "30rem", // Small (480px)
+            md: "48rem", // Medium (768px)
+            lg: "64rem", // Large (1024px)
+            xlg: "80rem", // Extra large (1280px)
+            xxlg: "96rem", // Double extra large (1536px)
+        },
         extend: {
             fontFamily: {
-                valentino: ['Valentino', "sans-serif"],
-                valentinoItalic: ['ValentinoItalic', "sans-serif"],
+                valentino: ["Valentino", "sans-serif"],
+                valentinoItalic: ["ValentinoItalic", "sans-serif"],
             },
             colors: {
                 background: "var(--background)",
@@ -22,6 +35,6 @@ module.exports = {
             },
         },
     },
-    plugins: [],
+    plugins: [fluid],
     // darkMode: "selector",
 };
