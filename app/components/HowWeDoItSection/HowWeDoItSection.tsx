@@ -2,35 +2,25 @@ import Section from "../common/Section";
 
 const HowWeDoItSection = () => {
   return (
-    <Section sectionHeight="h-screen">
-      {/* Main container with flex layout */}
-      <div>
-        {/* Container for 1 and 2 */}
-        <div className="flex h-full">
-          {/* 1. Meeting */}
-          <div className="bg-red-300 p-4 w-6/12">1. Meeting</div>
-          {/* 2. Design */}
-          <div className="bg-blue-300 p-4 w-6/12">2. Design</div>
+    <Section>
+      <div className="p-2 grid centered gap-4 h-[768px] sm:grid-rows-6 sm:grid-cols-6 md:grid-rows-12 md:grid-cols-12">
+        <div className="sm:h-10 md:h-20 sm:row-span-1 sm:col-span-6 md:row-span-4 md:col-span-7 bg-blue-300 p-4">
+          1. Meeting
         </div>
-        {/* Container for 3, 4, 5 */}
-        <div className="flex">
-          {/* 3. Development */}
-          <div>
-            <div className="flex">
-              <div className="bg-green-300 p-4">3. Development</div>
-              {/* 4. Maintenance */}
-              <div className="bg-yellow-300 p-4">4. Maintenance</div>
-            </div>
-            <div>
-              {/* 5. Launch */}
-              <div className="bg-purple-300 p-4">5. Not convinced yet?</div>
-            </div>
-          </div>
-          {/* Container for 6 */}
-          <div>
-            {/* 6. Not convinced yet? */}
-            <div className="bg-pink-300 p-4 h-full">6. Deploy Launch</div>
-          </div>
+        <div className="sm:row-span-1 sm:col-span-6 md:row-span-4 md:col-span-5 bg-green-300 p-4">
+          2. Design
+        </div>
+        <div className="sm:row-span-1 sm:col-span-6 md:row-span-4 md:col-span-5 bg-yellow-300 p-4">
+          3. Development
+        </div>
+        <div className="sm:row-span-1 sm:col-span-6 md:row-span-4 md:col-span-4 bg-orange-300 p-4">
+          4. Maintenance
+        </div>
+        <div className="sm:row-span-1 sm:col-span-6 md:row-span-8 md:col-span-3 bg-red-300 p-4">
+          5. Launch
+        </div>
+        <div className="sm:row-span-1 sm:col-span-6 md:row-span-4 md:col-span-9 bg-purple-300 p-4">
+          6. Not convinced yet?
         </div>
       </div>
     </Section>
