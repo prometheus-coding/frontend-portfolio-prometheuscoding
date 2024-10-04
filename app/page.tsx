@@ -24,7 +24,7 @@ export default function Home() {
       {/* Ci sara animazione dei codici che si scrivono da soli */}
       <CodeCreationSection />
       {/* Ci sara un carosello e le demo animative */}
-      <DemoQuotesSection />
+      {/* <DemoQuotesSection /> */}
       {/* Processo di costruzione d iun sito web */}
       <HowWeDoItSection />
       {/* Chi siamo sedzione artistica sara solo bello da leggere */}

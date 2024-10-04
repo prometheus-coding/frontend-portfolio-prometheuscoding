@@ -1,5 +1,5 @@
 "use client";
-import React, {  useRef } from "react";
+import React, { useRef } from "react";
 import Section from "../common/Section";
 import ProjectsCard from "./ProjectsCard";
 import { prometheusProjectData, testProjectData } from "../../data/mockData";
@@ -29,16 +29,16 @@ const ProjectSection = () => {
           <h1 className="text-7xl font-valentino text-white">Our Work</h1>
         </div>
       </div>
-      <div className="h-full max-w-[1270px] p-4">
+      <div className="h-full max-w-[1270px] w-full p-4">
         <div className="flex justify-center items-center">
-          <hr className="w-full mr-20 my-4 border-white" />
-          <h1 className="text-2xl font-valentino text-white">Prometheus</h1>
-          <hr className="w-full ml-20 my-4 border-white" />
+          <hr className="w-full ~mr-5/20 my-4 border-white" />
+          <h1 className=" font-valentino text-white ~text-base/3xl">Prometheus</h1>
+          <hr className="w-full ~ml-5/20  my-4 border-white" />
         </div>
       </div>
 
       {/* First scrollable component (scroll to the right) */}
-      <div className="relative mt-8 overflow-hidden w-full mb-4">
+      <div className="relative mt-8 overflow-hidden w-full mb-10">
         <motion.div
           className="flex gap-6 w-[100vw]" // Full screen width
           style={{ x: xRight }}
@@ -50,12 +50,11 @@ const ProjectSection = () => {
           ))}
         </motion.div>
       </div>
-
-      <div className="h-full max-w-[1270px] p-4">
+      <div className="h-full max-w-[1270px] w-full p-4">
         <div className="flex justify-center items-center">
-          {/* <hr className="w-screen mr-20 my-4 border-white" /> */}
+          <hr className="w-screen mr-20 my-4 border-white" />
           <h1 className="text-2xl font-valentino text-white">Prometheus</h1>
-          {/* <hr className="w-screen ml-20 my-4 border-white" /> */}
+          <hr className="w-screen ml-20 my-4 border-white" />
         </div>
       </div>
 
@@ -73,7 +72,7 @@ const ProjectSection = () => {
         </motion.div>
       </div>
 
-      <div className="h-full max-w-[1270px] p-4">
+      {/* <div className="h-full max-w-[1270px] p-4">
         <div className="mt-6 flex justify-center items-center">
           <hr className="w-full mr-20 my-4 border-gray-300" />
           <h1 className="w-48 text-2xl font-valentino text-gray-900">
@@ -81,7 +80,7 @@ const ProjectSection = () => {
           </h1>
           <hr className="w-full ml-20 my-4 border-gray-300" />
         </div>
-      </div>
+      </div> */}
     </Section>
   );
 };

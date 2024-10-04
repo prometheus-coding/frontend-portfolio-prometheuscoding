@@ -33,7 +33,7 @@ module.exports = {
                 foreground: "var(--foreground)",
                 base: {
                     100: "var(--base-100)",
-                    200: "var(--primary-600)",
+                    200: "var(--base-200)",
                 },
             },
         },
