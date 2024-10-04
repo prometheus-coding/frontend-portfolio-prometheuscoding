@@ -3,7 +3,7 @@ import React, {  useRef } from "react";
 import Section from "../common/Section";
 import ProjectsCard from "./ProjectsCard";
 import { prometheusProjectData } from "../../data/mockData";
-import { motion, useScroll, useSpring, useTransform } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
 
 const ProjectSection = () => {
   const ref = useRef(null);
@@ -19,7 +19,7 @@ const ProjectSection = () => {
   //   mass: 0.5,     // tweak the mass for how 'heavy' the scroll feels
   // })
 
-  const xRight = useTransform(scrollYProgress, [0, 1], [0, -2000]);
+  const xRight = useTransform(scrollYProgress, [0, 1], [0, -1000]);
   const xLeft = useTransform(scrollYProgress, [0, 1], [-1000, 2000]);
 
   return (

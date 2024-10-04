@@ -2,7 +2,7 @@ import Section from "../common/Section";
 
 const ContactUsSection = () => {
   return (
-    <Section sectionHeight="h-screen" bgColor="bg-primary-200">
+    <Section sectionHeight="h-screen" bgColor="bg-base-100">
       <div className="block md:flex">
         <div className="pb-3 text-2xl w-full s:w-4/12 text-white">
           Let&apos;s have our first meeting
