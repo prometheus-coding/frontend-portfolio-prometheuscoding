@@ -2,7 +2,7 @@ import Section from "../common/Section";
 
 const HowWeDoItSection = () => {
   return (
-    <Section>
+    <Section bgColor="bg-black">
       <div className="p-2 grid centered gap-4 s:grid-rows-6 s:grid-cols-6 md:grid-rows-12 md:grid-cols-12">
         <div className="s:row-span-1 s:col-span-6 h-[300px] md:row-span-4 md:col-span-7 bg-blue-300 p-4">
           1. Meeting

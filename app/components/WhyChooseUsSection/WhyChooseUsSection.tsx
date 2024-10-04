@@ -2,9 +2,9 @@ import Section from "../common/Section";
 
 const WhyChooseUsSection = () => {
   return (
-    <Section sectionHeight="h-screen">
+    <Section sectionHeight="h-screen" bgColor="bg-black">
       <div>
-        <h3 className="text-black">WHY CHOOSE US</h3>
+        <h3 className="text-white">WHY CHOOSE US</h3>
       </div>
     </Section>
   );

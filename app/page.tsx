@@ -6,7 +6,6 @@ import ProjectSection from "./components/ProjectSection/ProjectSection";
 import DemoQuotesSection from "./components/DemoQuotesSection/DemoQuotesSection";
 import HowWeDoItSection from "./components/HowWeDoItSection/HowWeDoItSection";
 import AboutUsSection from "./components/AboutUsSection/AboutUsSection";
-import OurWorkSection from "./components/OurWorkSection/OurWorkSection";
 import WhyChooseUsSection from "./components/WhyChooseUsSection/WhyChooseUsSection";
 import TechnologySection from "./components/TechnologySection/TechnologySection";
 import ContactUsSection from "./components/ContactUsSection/ContactUsSection";
@@ -21,23 +20,21 @@ export default function Home() {
       {/* inizio della pagina */}
       <SolutionHeroSection />
       {/* Progetti */}
-      <ProjectSection /> 
+      <ProjectSection />
       {/* Ci sara animazione dei codici che si scrivono da soli */}
       <CodeCreationSection />
       {/* Ci sara un carosello e le demo animative */}
       <DemoQuotesSection />
       {/* Processo di costruzione d iun sito web */}
-      <HowWeDoItSection /> 
+      <HowWeDoItSection />
       {/* Chi siamo sedzione artistica sara solo bello da leggere */}
       <AboutUsSection />
-      {/* Stessa cosa serve creativita  */}
-      <OurWorkSection />
       {/* Perche noi sezione  creativa sara solo bello da leggere */}
       <WhyChooseUsSection />
       {/* Servono gli svg di ruben */}
       <TechnologySection />
       {/* form contatto a noi */}
-      {/* <ContactUsSection /> 
+      <ContactUsSection />
       {/* zona footer */}
       <Footer />
     </React.Fragment>

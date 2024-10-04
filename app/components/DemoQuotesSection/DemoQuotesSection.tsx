@@ -4,7 +4,7 @@ import Section from "../common/Section";
 
 const DemoQuotesSection = () => {
   return (
-    <Section sectionHeight="h-screen">
+    <Section sectionHeight="h-screen" bgColor="bg-black">
       <div className="flex flex-wrap justify-center items-center mt-8 gap-8 p-4">
         <div className="border rounded-lg p-6 shadow-lg bg-white max-w-xs">
           <p className="text-lg text-gray-700">

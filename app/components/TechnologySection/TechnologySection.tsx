@@ -2,9 +2,9 @@ import Section from "../common/Section";
 
 const TechnologySection = () => {
   return (
-    <Section sectionHeight="h-screen">
+    <Section sectionHeight="h-screen" bgColor="bg-black">
       <div>
-        <h3 className="text-black">TECHNOLOGY</h3>
+        <h3 className="text-white">TECHNOLOGY</h3>
       </div>
     </Section>
   );

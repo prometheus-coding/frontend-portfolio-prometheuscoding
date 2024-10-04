@@ -1,9 +1,9 @@
 "use client";
-import React, { useRef } from "react";
+import React, {  useRef } from "react";
 import Section from "../common/Section";
 import ProjectsCard from "./ProjectsCard";
 import { prometheusProjectData } from "../../data/mockData";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 
 const ProjectSection = () => {
   const ref = useRef(null);
@@ -13,6 +13,12 @@ const ProjectSection = () => {
     offset: ["start end", "end start"],
   });
 
+  // const smootScrollYProgress = useSpring(scrollYProgress, {
+  //   stiffness: 60, // lower stiffness for smoother motion
+  //   damping: 20,   // higher damping to reduce bounce
+  //   mass: 0.5,     // tweak the mass for how 'heavy' the scroll feels
+  // })
+
   const xRight = useTransform(scrollYProgress, [0, 1], [0, -2000]);
   const xLeft = useTransform(scrollYProgress, [0, 1], [-1000, 2000]);
 
@@ -20,7 +26,7 @@ const ProjectSection = () => {
     <Section flexCol="flex-col" bgColor="bg-black">
       <div className="h-full max-w-[1270px] p-4">
         <div className="flex justify-center items-center">
-          <h1 className="text-7xl font-valentino text-white">Discover</h1>
+          <h1 className="text-7xl font-valentino text-white">Our Work</h1>
         </div>
       </div>
       <div className="h-full max-w-[1270px] p-4">
@@ -32,7 +38,7 @@ const ProjectSection = () => {
       </div>
 
       {/* First scrollable component (scroll to the right) */}
-      <div className="relative mt-8 overflow-hidden w-full mb-4"> 
+      <div className="relative mt-8 overflow-hidden w-full mb-4">
         <motion.div
           className="flex gap-6 w-[100vw]" // Full screen width
           drag="x"
