@@ -31,9 +31,13 @@ const ProjectSection = () => {
       </div>
       <div className="h-full max-w-[1270px] w-full p-4">
         <div className="flex justify-center items-center">
-          <hr className="w-full ~mr-5/20 my-4 border-white" />
-          <h1 className="text-white ~text-base/3xl">Prometheus</h1>
-          <hr className="w-full ~ml-5/20  my-4 border-white" />
+        <div className="w-screen ~mr-5/20 my-4 h-[1px] flex items-center bg-gradient-to-l from-white to-black ">
+            {/* <hr className="w-full border-white" /> */}
+          </div>
+          <h1 className="~text-base/3xl text-white">Prometheus</h1>
+          <div className="w-screen ~ml-5/20 my-4 h-[1px] flex items-center bg-gradient-to-r from-white to-black ">
+            {/* <hr className="w-screen ml-20 my-4 border-white" /> */}
+          </div>
         </div>
       </div>
 
@@ -52,9 +56,13 @@ const ProjectSection = () => {
       </div>
       <div className="h-full max-w-[1270px] w-full p-4">
         <div className="flex justify-center items-center">
-          <hr className="w-screen mr-20 my-4 border-white" />
+          <div className="w-screen ~mr-5/20 my-4 h-[1px] flex items-center bg-gradient-to-l from-white to-black ">
+            {/* <hr className="w-full border-white" /> */}
+          </div>
           <h1 className="~text-base/3xl text-white">Prometheus</h1>
-          <hr className="w-screen ml-20 my-4 border-white" />
+          <div className="w-screen ~ml-5/20 my-4 h-[1px] flex items-center bg-gradient-to-r from-white to-black ">
+            {/* <hr className="w-screen ml-20 my-4 border-white" /> */}
+          </div>
         </div>
       </div>
 
