@@ -32,7 +32,7 @@ const ProjectSection = () => {
       <div className="h-full max-w-[1270px] w-full p-4">
         <div className="flex justify-center items-center">
           <hr className="w-full ~mr-5/20 my-4 border-white" />
-          <h1 className=" font-valentino text-white ~text-base/3xl">Prometheus</h1>
+          <h1 className="text-white ~text-base/3xl">Prometheus</h1>
           <hr className="w-full ~ml-5/20  my-4 border-white" />
         </div>
       </div>
@@ -53,7 +53,7 @@ const ProjectSection = () => {
       <div className="h-full max-w-[1270px] w-full p-4">
         <div className="flex justify-center items-center">
           <hr className="w-screen mr-20 my-4 border-white" />
-          <h1 className="text-2xl font-valentino text-white">Prometheus</h1>
+          <h1 className="~text-base/3xl text-white">Prometheus</h1>
           <hr className="w-screen ml-20 my-4 border-white" />
         </div>
       </div>
