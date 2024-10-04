@@ -8,7 +8,7 @@ interface Props {
 const Button = ({ text }: Props) => {
   return (
     <React.Fragment>
-      <div className=' py-2 px-5 rounded-full border-[1px] bg-transparent hover:bg-primary-600 hover:text-white transition-colors duration-200 text-white border-white'>{text}</div>
+      <div className=' py-3 px-6 rounded-full border-[1px] bg-transparent transition-colors duration-200 text-white border-white cursor-pointer'>{text}</div>
     </React.Fragment>
   )
 }

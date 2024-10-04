@@ -2,7 +2,7 @@
 import React, {  useRef } from "react";
 import Section from "../common/Section";
 import ProjectsCard from "./ProjectsCard";
-import { prometheusProjectData } from "../../data/mockData";
+import { prometheusProjectData, testProjectData } from "../../data/mockData";
 import { motion, useScroll, useTransform } from "framer-motion";
 
 const ProjectSection = () => {
@@ -65,7 +65,7 @@ const ProjectSection = () => {
           className="flex gap-6 w-[100vw]" // Full screen width
           style={{ x: xLeft }}
         >
-          {prometheusProjectData.map((item, index) => (
+          {testProjectData.map((item, index) => (
             <div key={`item ${index}`} className="w-full">
               <ProjectsCard imageUrl={item.imageUrl} />
             </div>
