@@ -14,7 +14,7 @@ const SolutionHeroSection = () => {
           <Button text="Discover more" />
         </div>
       </div>
-      <div className="absolute bg-gradient-to-b from-transparent to-black opacity-90 h-full w-full z-[1] col"></div>
+      <div className="absolute bg-gradient-to-b from-transparent to-black opacity-90 h-full w-full z-[1] col pointer-events-none"></div>
     </Section>
   );
 };

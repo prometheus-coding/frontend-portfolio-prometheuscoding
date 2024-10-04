@@ -26,13 +26,13 @@ const ProjectSection = () => {
       <div className="h-full max-w-[1270px] p-4">
         <div className="flex justify-center items-center">
           <hr className="w-full mr-20 my-4 border-white" />
-          <h1 className="text-2xl font-valentino text-white">prometheus</h1>
+          <h1 className="text-2xl font-valentino text-white">Prometheus</h1>
           <hr className="w-full ml-20 my-4 border-white" />
         </div>
       </div>
 
       {/* First scrollable component (scroll to the right) */}
-      <div className="relative mt-8 overflow-hidden w-full"> 
+      <div className="relative mt-8 overflow-hidden w-full mb-4"> 
         <motion.div
           className="flex gap-6 w-[100vw]" // Full screen width
           drag="x"
@@ -48,9 +48,9 @@ const ProjectSection = () => {
 
       <div className="h-full max-w-[1270px] p-4">
         <div className="flex justify-center items-center">
-          <hr className="w-full mr-20 my-4 border-white" />
-          <h1 className="text-2xl font-valentino text-white">prometheus</h1>
-          <hr className="w-full ml-20 my-4 border-white" />
+          {/* <hr className="w-screen mr-20 my-4 border-white" /> */}
+          <h1 className="text-2xl font-valentino text-white">Prometheus</h1>
+          {/* <hr className="w-screen ml-20 my-4 border-white" /> */}
         </div>
       </div>
 
