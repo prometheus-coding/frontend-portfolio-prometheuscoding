@@ -41,7 +41,6 @@ const ProjectSection = () => {
       <div className="relative mt-8 overflow-hidden w-full mb-4">
         <motion.div
           className="flex gap-6 w-[100vw]" // Full screen width
-          drag="x"
           style={{ x: xRight }}
         >
           {prometheusProjectData.map((item, index) => (
@@ -64,7 +63,6 @@ const ProjectSection = () => {
       <div className="relative mt-8 overflow-hidden w-full">
         <motion.div
           className="flex gap-6 w-[100vw]" // Full screen width
-          drag="x"
           style={{ x: xLeft }}
         >
           {prometheusProjectData.map((item, index) => (

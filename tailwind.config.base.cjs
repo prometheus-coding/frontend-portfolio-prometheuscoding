@@ -31,10 +31,9 @@ module.exports = {
             colors: {
                 background: "var(--background)",
                 foreground: "var(--foreground)",
-                primary: {
-                    500: "var(--primary-500)",
-                    600: "var(--primary-600)",
-                    200: "var(--notte-200)",
+                base: {
+                    100: "var(--base-100)",
+                    200: "var(--primary-600)",
                 },
             },
         },
