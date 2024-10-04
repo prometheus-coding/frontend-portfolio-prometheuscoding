@@ -16,7 +16,7 @@ const Section = ({
   backgroundImage,
 }: Props) => {
   return (
-    <div
+    <section
       className={`w-full flex justify-center items-center ${flexCol} ${bgColor} ${sectionHeight}`}
       style={{
         backgroundImage: backgroundImage
@@ -28,7 +28,7 @@ const Section = ({
       }}
     >
       {children}
-    </div>
+    </section>
   );
 };
 
