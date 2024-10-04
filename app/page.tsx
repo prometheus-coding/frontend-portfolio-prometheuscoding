@@ -3,7 +3,6 @@ import Header from "./components/Header/Header";
 import SolutionHeroSection from "./components/SolutionHeroSection/SolutionHeroSection";
 import CodeCreationSection from "./components/CodeCreationSection/CodeCreationSection";
 import ProjectSection from "./components/ProjectSection/ProjectSection";
-import DemoQuotesSection from "./components/DemoQuotesSection/DemoQuotesSection";
 import HowWeDoItSection from "./components/HowWeDoItSection/HowWeDoItSection";
 import AboutUsSection from "./components/AboutUsSection/AboutUsSection";
 import WhyChooseUsSection from "./components/WhyChooseUsSection/WhyChooseUsSection";

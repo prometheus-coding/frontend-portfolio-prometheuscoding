@@ -22,6 +22,16 @@ const ProjectSection = () => {
   const xRight = useTransform(scrollYProgress, [0, 1], [0, -1000]);
   const xLeft = useTransform(scrollYProgress, [0, 1], [-1000, 2000]);
 
+  const getHrClass = (direction: 'left' | 'right') => {
+    if (direction == 'left') {
+      return 'w-screen ~mr-5/20 my-4 h-[1px] flex items-center bg-gradient-to-l from-white from-80% to-black'
+    }
+    if (direction == 'right') {
+      return 'w-screen ~ml-5/20 my-4 h-[1px] flex items-center bg-gradient-to-r from-white from-80% to-black '
+    }
+  }
+
+
   return (
     <Section flexCol="flex-col" bgColor="bg-black">
       <div className="h-full max-w-[1270px] p-4">
@@ -31,13 +41,9 @@ const ProjectSection = () => {
       </div>
       <div className="h-full max-w-[1270px] w-full p-4">
         <div className="flex justify-center items-center">
-        <div className="w-screen ~mr-5/20 my-4 h-[1px] flex items-center bg-gradient-to-l from-white to-black ">
-            {/* <hr className="w-full border-white" /> */}
-          </div>
+          <div className={getHrClass('left')} />
           <h1 className="~text-base/3xl text-white">Prometheus</h1>
-          <div className="w-screen ~ml-5/20 my-4 h-[1px] flex items-center bg-gradient-to-r from-white to-black ">
-            {/* <hr className="w-screen ml-20 my-4 border-white" /> */}
-          </div>
+          <div className={getHrClass('right')} />
         </div>
       </div>
 
@@ -56,13 +62,9 @@ const ProjectSection = () => {
       </div>
       <div className="h-full max-w-[1270px] w-full p-4">
         <div className="flex justify-center items-center">
-          <div className="w-screen ~mr-5/20 my-4 h-[1px] flex items-center bg-gradient-to-l from-white to-black ">
-            {/* <hr className="w-full border-white" /> */}
-          </div>
+          <div className={getHrClass('left')} />
           <h1 className="~text-base/3xl text-white">Prometheus</h1>
-          <div className="w-screen ~ml-5/20 my-4 h-[1px] flex items-center bg-gradient-to-r from-white to-black ">
-            {/* <hr className="w-screen ml-20 my-4 border-white" /> */}
-          </div>
+          <div className={getHrClass('right')} />
         </div>
       </div>
 
