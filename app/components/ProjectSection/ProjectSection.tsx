@@ -24,10 +24,10 @@ const ProjectSection = () => {
 
   const getHrClass = (direction: 'left' | 'right') => {
     if (direction == 'left') {
-      return 'w-screen ~mr-5/20 my-4 h-[1px] flex items-center bg-gradient-to-l from-white from-80% to-black'
+      return 'w-screen ~mr-2/20 my-4 h-[1px] flex items-center bg-gradient-to-l from-white from-80% to-black'
     }
     if (direction == 'right') {
-      return 'w-screen ~ml-5/20 my-4 h-[1px] flex items-center bg-gradient-to-r from-white from-80% to-black '
+      return 'w-screen ~ml-2/20 my-4 h-[1px] flex items-center bg-gradient-to-r from-white from-80% to-black '
     }
   }
 
