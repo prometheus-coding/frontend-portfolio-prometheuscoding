@@ -8,6 +8,7 @@ import AboutUsSection from "./components/AboutUsSection/AboutUsSection";
 import WhyChooseUsSection from "./components/WhyChooseUsSection/WhyChooseUsSection";
 import TechnologySection from "./components/TechnologySection/TechnologySection";
 import ContactUsSection from "./components/ContactUsSection/ContactUsSection";
+import DemoQuotesSection from "./components/DemoQuotesSection/DemoQuotesSection";
 import Footer from "./components/Footer/Footer";
 import "./homepage.css";
 
@@ -23,7 +24,7 @@ export default function Home() {
       {/* Ci sara animazione dei codici che si scrivono da soli */}
       <CodeCreationSection />
       {/* Ci sara un carosello e le demo animative */}
-      {/* <DemoQuotesSection /> */}
+      <DemoQuotesSection />
       {/* Processo di costruzione d iun sito web */}
       <HowWeDoItSection />
       {/* Chi siamo sedzione artistica sara solo bello da leggere */}

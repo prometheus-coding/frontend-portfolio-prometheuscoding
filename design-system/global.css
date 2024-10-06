@@ -6,39 +6,41 @@
 
 @layer base {
 
-    .keep-color-scheme img {
-        filter: none;
-    }
-    :root,
-    .keep-color-scheme {
-        /* --- colors --- */
-        /* base */
-        --base-100 : #1b1b1b;
-        --base-200 : #121212;
-        --notte-200: #090c0f;
-    }
+  .keep-color-scheme img {
+    filter: none;
+  }
+
+  :root,
+  .keep-color-scheme {
+    /* --- colors --- */
+    /* base */
+    --base-100: #1b1b1b;
+    --base-200: #121212;
+    --notte-200: #090c0f;
+  }
 
 
-    /* for an eventual darkmode */
-    .dark {
-        --background: #0a0a0a;
-        --foreground: #ededed;
-        --primary-500: #a34a4a;
-        --primary-600: #460b0b;
-        --notte-200: #18497a;
-    }
+  /* for an eventual darkmode */
+  .dark {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    --primary-500: #a34a4a;
+    --primary-600: #460b0b;
+    --notte-200: #18497a;
+  }
 }
 
 @layer utilities {
-    .text-balance {
-        text-wrap: balance;
-    }
-    .centered {
-        width: 1000px;
-        color: grey;
-    }
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .centered {
+    width: 1000px;
+    color: grey;
+  }
 }
 
-/* * {
-    outline: 1px dashed black;
-} */
+/** {*/
+/*  outline: 1px dashed white;*/
+/*}*/
