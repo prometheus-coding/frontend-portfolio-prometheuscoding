@@ -1,6 +1,6 @@
 import fluid, { extract } from "fluid-tailwind";
 
-module.exports = {
+export const baseConfig = {
     content: {
         files: [
             "./pages/**/*.{js,ts,jsx,tsx,mdx}",
