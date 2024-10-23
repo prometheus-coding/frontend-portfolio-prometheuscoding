@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./components/Header/Header";
 import SolutionHeroSection from "./components/SolutionHeroSection/SolutionHeroSection";
 import CodeCreationSection from "./components/CodeCreationSection/CodeCreationSection";
-import ProjectSection from "./components/ProjectSection/ProjectSection";
+// import ProjectSection from "./components/ProjectSection/ProjectSection";
 import HowWeDoItSection from "./components/HowWeDoItSection/HowWeDoItSection";
 import AboutUsSection from "./components/AboutUsSection/AboutUsSection";
 import WhyChooseUsSection from "./components/WhyChooseUsSection/WhyChooseUsSection";
@@ -20,7 +20,7 @@ export default function Home() {
       {/* inizio della pagina */}
       <SolutionHeroSection />
       {/* Progetti */}
-      <ProjectSection />
+      {/* <ProjectSection /> */}
       {/* Ci sara animazione dei codici che si scrivono da soli */}
       <CodeCreationSection />
       {/* Ci sara un carosello e le demo animative */}
